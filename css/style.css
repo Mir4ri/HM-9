@@ -1,0 +1,120 @@
+body{
+	background: linear-gradient(20deg, #ff512f,#dd2476 );
+	overflow: hidden;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.container {
+	background: #fff;
+	padding: 30px 30px 60px 30px;
+	margin: 61px auto;
+	width: 460px;
+}
+
+.fa-key {
+	color: #df2671;
+	font-size: 24px;
+	margin-right: 5px;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: -0.3px;
+}
+
+.text {
+	margin-top: 15px;
+	font-size: 13px;
+	color: #b6b7b9;
+}
+
+.text a {
+	color: #ea355a;
+	text-decoration: none;
+}
+
+
+.text a:hover {
+	text-decoration: underline;
+}
+/* form */
+
+#form {
+	margin-top: 20px;
+}
+
+
+input {
+	background: #f0f0f0;
+	border-radius: 4px;
+	border: none;
+	display: inline-block;
+	color: #7a7b7f;
+	margin: 8px 0;
+	padding: 7px 0 5px 10px;
+	width: 99%;	
+}
+
+input[type="button"] {
+	background: #ea355a;
+	color: #FFF;
+	box-shadow: 0 2pt 0 0 #bd1962;
+}
+
+input:nth-child(1) {
+	width: 49%;
+}
+
+input:nth-child(2) {
+	width: 49%;
+}
